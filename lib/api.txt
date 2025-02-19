@@ -1,0 +1,23 @@
+api key
+9682d2cc84de4a3f97b19212a4e885df
+
+everything end points
+https://newsapi.org/v2/everything?q=bitcoin&apiKey=9682d2cc84de4a3f97b19212a4e885df
+
+top headlines
+https://newsapi.org/v2/top-headlines?country=us&apiKey=9682d2cc84de4a3f97b19212a4e885df
+
+top headlines bbc news sources
+https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=9682d2cc84de4a3f97b19212a4e885df
+
+
+Total Phone Height = 1 (divided into 10 parts) 
+
+
+<<< DEFINE VARIABLE >>>
+final height = MediaQuery.sizeOf(context).height*1;   (take full height of the phone)
+final width = MediaQuery.sizeOf(context).width*1;     (take full width of the phone)
+
+*Example*
+width: width * .9   (.9 = cover 9 parts of the screen)
+height: height * .5 (.5 = cover 5 parts of the screen)
