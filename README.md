@@ -1,16 +1,23 @@
-# news_app
+# Flutter News App
 
-A new Flutter project.
+A simple and clean Flutter news application that fetches and displays top headlines. The app features a splash screen, a home screen for browsing news, and a detailed news screen.
 
-## Getting Started
+## 🚀 Features
+- 📰 Fetches top news headlines
+- 📸 Displays news with images using `CachedNetworkImage`
+- 📝 Shows details such as title, author, source, description, and publication date
+- 🌐 Open external links to full news articles
+- 🎨 Beautiful UI with `GoogleFonts` and smooth animations
 
-This project is a starting point for a Flutter application.
+## 🛠 Tech Stack
+- **Flutter** (Dart)
+- **Packages Used:**
+  - [`cached_network_image`](https://pub.dev/packages/cached_network_image)
+  - [`intl`](https://pub.dev/packages/intl) (for date formatting)
+  - [`flutter_spinkit`](https://pub.dev/packages/flutter_spinkit) (for splash screen animation)
+  - [`google_fonts`](https://pub.dev/packages/google_fonts)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Installation
+1. Clone the repository  
+   ```sh
+   git clone https://github.com/MH-MuhammadHassan/flutter_news_app.git
