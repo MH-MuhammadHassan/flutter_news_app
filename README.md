@@ -74,3 +74,18 @@ The **Flutter News App** delivers a smooth and intuitive experience for browsing
    ```bash
    git clone https://github.com/MH-MuhammadHassan/flutter_news_app.git
    cd flutter-news-app
+
+
+## 👨‍💻 Author
+
+**Muhammad Hassan**  
+[LinkedIn](https://www.linkedin.com/in/mh-muhammadhassan/)
+
+---
+
+## 🤝 Contributions
+
+Contributions are welcome!  
+Feel free to open issues or submit pull requests to enhance the project.
+
+---
