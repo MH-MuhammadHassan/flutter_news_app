@@ -1,47 +1,76 @@
-# 📰 Flutter News App  
+# 📰 Flutter News App – Live News with Filters (Flutter + REST API)
 
-A **modern news app** built with **Flutter** and **REST APIs**, allowing users to browse and filter news by **category and source**. Features a smooth **splash screen**, optimized **image loading**, and a **responsive UI**.  
+![Flutter News App Banner](flutternewsbanner.jpg)
 
-## 🚀 Features  
+The **Flutter News App** is a sleek, real-time news reader app built using **Flutter** and **REST APIs**. It offers a modern interface, category-based filtering, optimized image loading, and smooth performance. Ideal for those learning API integration, UI design, and Flutter development best practices.
 
-✅ **Splash Screen & Loader** – Implemented using **Flutter Spinkit**  
-✅ **Live News Feed** – Displays **news images, titles, sources, and dates** from APIs  
-✅ **Filter by Category & Source** – Choose from **BBC News, Al Jazeera, ARY News, Axios, etc.**  
-✅ **Optimized Image Loading** – Used **Cached Network Image** for performance  
-✅ **Modern UI** – Styled with **Google Fonts** and optimized layouts  
+---
 
-## 🛠️ Technologies & Packages Used  
+## 📱 Application Features
 
-- **Flutter & Dart**  
-- **REST APIs (HTTP Package)**  
-- **Intl for Date Formatting**  
-- **Cached Network Image**  
-- **Flutter Spinkit for Loaders**  
-- **Google Fonts**  
+- 🌟 Beautiful splash screen with **Flutter Spinkit**
+- 📰 Live headlines with **images, titles, sources, and publish dates**
+- 🧭 Filter news by **category** (business, technology, etc.) and **source** (BBC, Al Jazeera, ARY, Axios)
+- 🖼️ Optimized image loading using **CachedNetworkImage**
+- 🧩 Responsive layout with clean, modern UI
+- 🕒 Localized time formatting with `intl`
+- 🎨 Custom theming using **Google Fonts**
+- 💾 Persistent theme and session support using **Shared Preferences** (Upcoming)
 
-## 📦 Installation  
+---
 
-1. **Clone the repository**  
+## 🔍 Project Description
+
+The **Flutter News App** delivers a smooth and intuitive experience for browsing the latest news from various credible sources. Built with RESTful API integration and modern UI/UX design practices, it helps users:
+
+- Stay updated with breaking headlines
+- Filter and explore topics of interest
+- Enjoy a polished, responsive mobile experience
+- Learn about API handling and clean Flutter architecture
+
+---
+
+## ✅ Functional Requirements
+
+### 🔐 Splash & Loading
+- Animated splash screen using **Spinkit**
+- Loader shown while fetching data
+
+### 📰 News Listing
+- Browse articles with full image and meta info
+- Scrollable feed with automatic updates
+
+### 🗂️ Filtering System
+- Filter articles by **category** and **news provider**
+- Multiple predefined filters
+
+### 🔍 Search & Details
+- In-app search (Upcoming)
+- Detailed article views (Coming Soon)
+
+### ⚙️ Settings
+- Persistent dark/light theme support using Shared Preferences (Planned)
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend:** Flutter (Dart)
+- **API Integration:** REST API using `http`
+- **Image Optimization:** CachedNetworkImage
+- **Date Formatting:** `intl` package
+- **Loaders:** Flutter Spinkit
+- **Typography:** Google Fonts
+- **State Management:** setState / FutureBuilder (simple state)
+- **Session/Theme:** Shared Preferences (planned)
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 🔧 Installation
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/MH-MuhammadHassan/flutter_news_app.git
    cd flutter-news-app
-   ```  
-2. **Install dependencies**  
-   ```bash
-   flutter pub get
-   ```  
-3. **Run the app**  
-   ```bash
-   flutter run
-   ```  
-
-## 📡 API Integration  
-
-This app fetches real-time news data using **REST APIs**. Update the **API key** in the project as required.  
-
-## 📬 Contact  
-
-If you have any questions or suggestions, feel free to reach out!  
-
-📧 Email: mhhassan.work@gmail.com  
-👨‍💻 LinkedIn: https://www.linkedin.com/in/mh-muhammadhassan/
